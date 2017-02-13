@@ -1,0 +1,165 @@
+html{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: helvetica, sans-serif;
+}
+
+h1{
+  padding-left: 30px;
+  padding-top: 25px;
+  margin-bottom: 25px;
+  font-family: 'Rhinoceros', cursive;
+  font-size: 50px;
+  letter-spacing: 5px;
+  color: #145acc;
+  text-shadow: 2px 2px lightgray;
+}
+
+p{
+  font-weight: 200;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+
+
+div{
+  display: block;
+}
+
+.nav li a {
+    color: #145acc;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 8px 18px;
+    border: 3px solid #145acc;
+
+    transition: all 0.3s;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.nav li{
+  display: inline-block;
+  text-decoration: none;
+}
+
+.nav{
+  position: fixed;
+  z-index: 1;
+}
+
+
+.nav li a:hover{
+  color: #145acc;
+  background-color: #9effc9;
+  border: 3px solid #9effc9;
+}
+
+#arrow{
+  max-width: 50px;
+  float: right;
+  margin: 10px;
+}
+
+.index{
+  background-image: url("images/cityhall.jpg");
+  padding: 10px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.page1{
+  background-image: url("images/newyork.jpg");
+  padding: 10px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.page2{
+  background-image: url("images/vienna.jpg");
+  padding: 10px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.bottom{
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  margin-top: 700px;
+}
+
+.page1 section{
+  height: 880px;
+}
+
+.index section{
+  height: 1200px;
+}
+
+.index p{
+  padding-top: 10px;
+  font-size: 1.1em;
+}
+
+.response{
+  max-width: 75%;
+  padding-top: 0;
+
+}
+
+.container{
+  position: relative;
+  margin: 0 auto;
+  max-width: 700px;
+
+}
+
+.codepen{
+  margin: 0 auto;
+
+}
+
+.row{
+  display: block;
+  margin: 0;
+}
+
+
+
+.column{
+  display: inline-block;
+  margin: 5px;
+  max-width: 30%;
+  height: 200px;
+  vertical-align: top;
+  padding: 15px;
+}
+
+.column img{
+  max-width: 120%;
+  height: auto;
+  margin: 5px;
+  padding: 15px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.column img:hover{
+  filter: brightness(1.5);
+  border: solid white 1px;
+}
